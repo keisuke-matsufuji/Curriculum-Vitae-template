@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  node:
+    # image: node:lts
+    image: node:13.6.0
+    # image: node:16.10.0
+    working_dir: /var/tmp
+    volumes:
+        - .:/var/tmp
+    # コンテナ起動後、StatusがExitにならないようttyの設定
+    tty: true
