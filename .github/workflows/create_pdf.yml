@@ -20,4 +20,10 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: create-pdf
-          path: ./README.pdf
+          path: ./職務経歴書.pdf
+      - run: |
+          git config --global user.email "mt.fuji06781@gmail.com"
+          git config --global user.name "Keisuke Matsufuji"
+          git add .
+          git status
+          git commit -m 'generate PDF' && git push ${REPO} ${{github.event.pull_request.head.ref}}
