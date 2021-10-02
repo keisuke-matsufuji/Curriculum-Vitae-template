@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/keisuke-matsufuji/Curriculum-Vitae-template/issues"
   },
-  "homepage": "https://github.com/keisuke-matsufuji/Curriculum-Vitae-template#readme"
+  "homepage": "https://github.com/keisuke-matsufuji/Curriculum-Vitae-template#readme",
+  "type": "module"
 }
