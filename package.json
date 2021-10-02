@@ -3,14 +3,9 @@
   "version": "1.0.0",
   "description": "|key|value|\r |---|-----|\r |Name|ふー　ばー (Foo Bar)|\r |Blog|[ふーばーブログ](http://foobar.blog.com)|\r |Twitter|[@foobar](https://twitter.com/foobar)|",
   "main": "index.js",
-  "dependencies": {
-    "chalk": "^1.1.3",
-    "debug": "^4.3.2",
-    "md-to-pdf": "^5.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "md-to-pdf ./*.md"
   },
   "repository": {
     "type": "git",
@@ -22,5 +17,7 @@
     "url": "https://github.com/keisuke-matsufuji/Curriculum-Vitae-template/issues"
   },
   "homepage": "https://github.com/keisuke-matsufuji/Curriculum-Vitae-template#readme",
-  "type": "module"
+  "dependencies": {
+    "md-to-pdf": "^5.0.0"
+  }
 }
