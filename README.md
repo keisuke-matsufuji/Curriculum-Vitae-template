@@ -4,23 +4,29 @@
 
 |key|value|
 |---|-----|
-|Name|ふー　ばー (Foo Bar)|
-|Blog|[ふーばーブログ](http://foobar.blog.com)|
-|Twitter|[@foobar](https://twitter.com/foobar)|
+|Name|松藤　圭祐 (Matsufuji Keisuke)|
+<!-- |Blog|[ふーばーブログ](http://foobar.blog.com)|
+|Twitter|[@foobar](https://twitter.com/foobar)| -->
 
 ## スキル
 ### 言語
-- Ruby
 - PHP
-- Java
-- などなど
+- Python
+- JavaScript
+- TypeScript
 
 ### フレームワーク
-
-- Ruby on Rails
 - Laravel
-- Spring Boot
-- などなど
+- Vue.js
+
+### DB・ミドルウェア
+- Oracle
+- PostgreSQL
+- MySQL
+- Docker
+- docker-compose
+- Redis
+- 
 
 ### その他
 
