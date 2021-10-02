@@ -6,8 +6,8 @@
 |key|value|
 |---|-----|
 |Name|松藤 圭祐 (Matsufuji Keisuke)|
-<!-- |Blog|[ふーばーブログ](http://foobar.blog.com)|
-|Twitter|[@foobar](https://twitter.com/foobar)| -->
+|Blog|[ふーばーブログ](http://foobar.blog.com)|
+|Twitter|[@foobar](https://twitter.com/foobar)|
 
 ## スキル
 ### 言語
