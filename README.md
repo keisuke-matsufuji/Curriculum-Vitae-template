@@ -7,6 +7,8 @@
 |---|-----|
 |Name|松藤 圭祐 (Matsufuji Keisuke)|
 |Living|福岡県福岡市|
+|Qiita|https://qiita.com/mtfuji_ksk|
+|Blog|https://www.mtfujiksukblog.com/|
 
 
 ## スキル
@@ -92,8 +94,8 @@
   - 実務経験はありませんが、AWS Lambda + Cloud Watchを用いたアプリケーションの構築を個人開発で行いました。
 
 ### やったことはないが興味があるもの
-- 大規模な業務データを使用するためのデータ分析基盤の構築。  
-将来的には、社内のデータ分析基盤に関わる業務に携わることに興味があります。
+- CI/CD環境の構築などの、SRE領域の業務に興味があります。  
+個人開発でGithub ActironsとAWS Lambdaを用いたCI環境の構築を行ったので、実際に業務で使用できるところまで体系的に知識を学びたいです。
 
 ## 職務経歴
 
@@ -194,7 +196,7 @@
 ## 課外活動
 ### 個人開発
 - [FX自動売買](https://github.com/keisuke-matsufuji/fx_by_oanda)
-  - 技術
+  - 技術要素
     - Python
     - AWS
       - Lambda
@@ -208,3 +210,19 @@
   - AWS Lambdaの関数をPythonで記述し、Cloud Watchで定期実行します。
   - GitHub ActionsとServerless Flameworkを用いて、AWS Lambdaへの自動デプロイ環境(CI/CD環境)を構築しました。
 
+- [技術ブログ](https://www.mtfujiksukblog.com/)
+  - 技術要素
+    - Nuxt.js
+    - Vuetiry
+    - Nuxt-Content
+    - Docker
+    - AWS
+      - Amplify Console
+      - Route53
+    - Github
+- Nuxt.jsのプラグインであるNuxt-Contentを使用して、個人ブログの作成を行いました。
+- 開発環境構築はDocker/docker-composeで行いました。
+- 記事をマークダウンで作成し、静的ファイルで吐き出す仕組みにしています。
+- お名前.comで取得したドメインを使用し、AWS Amplifyでホスティングしています。
+- ドメインについては、Route53で管理しています。
+- AWS Amplify Consoleを使用し、Githubのブランチへのマージをトリガーに自動デプロイするCI環境の構築を行いました。masterブランチとdevelopブランチそれぞれにトリガーを設定しているので、developブランチで動作確認（ステージング環境）を行えるようにしました。
